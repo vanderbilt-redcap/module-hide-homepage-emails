@@ -1,0 +1,19 @@
+{
+	"name": "Hide Email Addresses on Project Home Page",
+
+	"namespace": "Vanderbilt\\HideHomePageEmails",
+
+	"description": "This module removes all email addresses listed in the user list on the Project Home Page.",
+
+    "authors": [
+        {
+            "name": "Rob Taylor",
+            "email": "rob.taylor@vanderbilt.edu",
+            "institution": "Vanderbilt University Medical Center"
+        }
+    ],
+	
+	"permissions": [
+		"hook_project_home_page"
+	]
+}
