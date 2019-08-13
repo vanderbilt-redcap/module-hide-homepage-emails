@@ -3,7 +3,7 @@
 
 	"namespace": "Vanderbilt\\HideHomePageEmails",
 
-	"description": "This module removes all email addresses listed in the user list on the Project Home Page.",
+	"description": "This module removes all email addresses listed in the user list on the Project Home Page. It can also be set to hide the entire user list.",
 
     "authors": [
         {
@@ -15,5 +15,13 @@
 	
 	"permissions": [
 		"hook_project_home_page"
+	],
+	
+	"project-settings": [
+		{
+			"key": "hide-user-list",
+			"name": "Hide the entire user list on the Project Home Page?",
+			"type": "checkbox"
+		}
 	]
 }
